@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+		<title>JEH</title>
+		<link type="text/css" rel="stylesheet" href={{ url_for('static', filename='app.css')}} />
+	</head>
+	<body>
+	
+	
+		<div class="user_ticket">
+			<ul>
+				<li><img src={{ url_for('static', filename='image.jpg')}}/></li>
+				<li>
+					<capitalize><b>Jennifer Stone</b></capitalize>
+					<p><i><small>CEO Tech Crunchy</small></i></p>
+				</li>
+			</ul>
+		</div>
+		
+		
+		<div class="user_read_on">
+			<div class="top">Header</div>
+			<div class="body">
+				<ul>
+					<li>
+						<img src={{ url_for('static', filename='image.jpg')}}/>
+					</li>
+					<li>
+						<p>
+							Lorem ipsum Lorem ipsum Lorem ipsum Lorem 
+							ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+							Lorem ipsum Lorem ipsum Lorem ipsum.
+						</p>
+					</li>
+				</ul>
+				
+			</div>
+			<div class="bottom">Footer</div>
+		</div>
+		<script src={{ url_for('static', filename='jquery-3.2.1.js')}}></script>
+		<script src={{ url_for('static', filename='app.js')}}></script>
+	</body>
+</html>

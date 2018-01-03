@@ -1,0 +1,87 @@
+.user_ticket {
+	border: 1px solid lightgray;
+	max-width: 300px;
+	background: #ffffff;
+}
+.user_ticket:hover {
+	cursor: pointer;
+	box-shadow: 1px 1px lightgray;
+	transform: translateY(1px);
+}
+.user_ticket > ul {
+	list-style-type: none;
+	padding: 0 33px;
+}
+
+.user_ticket > ul > li {
+	display: inline-block;
+	padding: 0.21rem 0;
+}
+
+.user_ticket > ul > li:first-child > img {
+	max-height: 85px;
+	max-width: 85px;
+	border-radius: 50%;
+	border: 1px solid lightgray;
+}
+
+.user_ticket > ul > li:nth-child(2) {
+	position: absolute;
+	padding-top: 13px;
+	padding-left: 1rem;
+	font-size: 18px;
+}
+
+.user_ticket > ul > li:nth-child(2) p {
+	margin: 0!important;
+}
+
+.user_read_on {
+	margin: 0 auto;
+	border: 1px solid lightgray;
+	max-width: 400px;
+	padding: 1rem;
+	position: relative;
+	display: none;
+	margin-top: -40rem;
+	background: #ffffff;
+}
+
+.user_read_on .top {
+	border-bottom: 1px solid lightgray;
+	text-align: center;
+}
+
+.user_read_on .body ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+}
+
+.user_read_on .body ul > li:first-child  {
+	max-height: 184px;
+	max-width: 150px;
+	padding: 0 0.42rem;
+}
+
+.user_read_on .body ul > li:first-child  > img {
+	max-height: inherit;
+	max-width: inherit;
+}
+.user_read_on .body ul > li:nth-child(2) {
+	border-left: 1px solid lightgray;
+	padding-left: 0.3rem;
+}
+
+.user_read_on .bottom {
+	border-top: 1px solid lightgray;
+	text-align: center;
+}
+
+.display_card {
+	display: block;
+	margin-top: 4rem;
+	transition: margin-top 5s linear;
+	transform: scaleY(1)
+	
+}
